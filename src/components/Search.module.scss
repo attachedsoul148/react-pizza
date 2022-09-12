@@ -1,0 +1,37 @@
+.wrapper {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    width: 400px;
+    padding: 10px 15px;
+    transition: 0.2s;
+
+    &:hover {
+        border: 1px solid rgba(0, 0, 0, 0.4);
+    }
+
+    input {
+        border: none;
+        outline: none;
+        width: 310px;
+        font-size: 16px;
+    }
+
+    svg {
+        opacity: 0.5;
+    }
+
+    .delBtn {
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    .search {
+        display: flex;
+        gap: 10px;
+    }
+}

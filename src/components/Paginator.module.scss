@@ -1,0 +1,36 @@
+.btn {
+    outline: none;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fe5f1e;
+    font-weight: 600;
+    font-size: 14px;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: #fe5f1e;
+        color: white;
+    }
+
+    cursor: pointer;
+}
+
+.activeBtn {
+    outline: none;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #fe5f1e;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
